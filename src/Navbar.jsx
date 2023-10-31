@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar flexB">
         <h1>The Dojo Blog</h1>
-        <ul className="primary-links">
+        <ul className="primary-navigation flexB">
           <li>
             <a href="/">Home</a>
           </li>

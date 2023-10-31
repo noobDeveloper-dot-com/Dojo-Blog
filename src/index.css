@@ -4,8 +4,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body {
   min-height: 100vh;
+}
+
+.flexB {
+  display: flex;
+}
+
+.navbar {
+  justify-content: space-around;
+  padding: 0.5em 0;
+}
+
+.primary-navigation {
+  gap: 1em;
 }
